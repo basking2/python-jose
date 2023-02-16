@@ -1,4 +1,4 @@
-PyYAML==3.11
+PyYAML==5.4
 cov-core==1.15.0
 coverage==3.7.1
 coveralls==0.5
@@ -12,3 +12,4 @@ wsgiref==0.1.2
 
 -r requirements.txt
 -r requirements-rtd.txt
+certifi>=2022.12.7 # not directly required, pinned by Snyk to avoid a vulnerability
