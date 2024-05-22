@@ -12,3 +12,4 @@ wsgiref==0.1.2
 
 -r requirements.txt
 -r requirements-rtd.txt
+requests>=2.32.0 # not directly required, pinned by Snyk to avoid a vulnerability
